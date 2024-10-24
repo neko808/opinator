@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/app.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="header">
+          <img
+            class="woman-mobile"
+            src="img/woman-facing.png"
+            alt="woman with mobile phone"
+          />
+          <img
+            class="box-logo"
+            src="img/opinator-logo.svg"
+            alt="opinator logo"
+          />
+        </div>
+        <div class="content">
+          <img class="star" src="img/star.svg" alt="star shape" />
+          <div class="text">
+            <h3>
+              What are the 3 elements <span>you value the most</span> of our
+              brand?
+            </h3>
+          </div>
+          <div class="first">
+            <div class="grid-container">
+              <div class="circle image-container top">
+                <img class="item1" src="img/item1.svg" alt="item" />
+                <img class="item2" src="img/item1hover.svg" alt="item" />
+                <h5>Usability</h5>
+                <div
+                  class="lottie-animation"
+                  data-animation-path="lottie/wonder.json"
+                ></div>
+              </div>
+              <div class="circle image-container left">
+                <img class="item1" src="img/item2.svg" alt="item" />
+                <img class="item2" src="img/item2hover.svg" alt="item" />
+                <h5>Customer</h5>
+                <div
+                  class="lottie-animation"
+                  data-animation-path="lottie/wonder.json"
+                ></div>
+              </div>
+              <div class="circle image-container bright">
+                <img class="item1" src="img/item3.svg" alt="item" />
+                <img class="item2" src="img/item3hover.svg" alt="item" />
+                <h5>Marketing</h5>
+                <div
+                  class="lottie-animation"
+                  data-animation-path="lottie/wonder.json"
+                ></div>
+              </div>
+              <div class="circle image-container right">
+                <img class="item1" src="img/item4.svg" alt="item" />
+                <img class="item2" src="img/item4hover.svg" alt="item" />
+                <h5>Accesibility</h5>
+                <div
+                  class="lottie-animation"
+                  data-animation-path="lottie/wonder.json"
+                ></div>
+              </div>
+              <div class="circle image-container bottom">
+                <img class="item1" src="img/item5.svg" alt="item" />
+                <img class="item2" src="img/item5hover.svg" alt="item" />
+                <h5>Performance</h5>
+                <div
+                  class="lottie-animation"
+                  data-animation-path="lottie/wonder.json"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="texto">
+            <h3>Help the bunny rate your experience <span>with us!</span></h3>
+          </div>
+          <div class="slider-container">
+            <div class="drag-indicator">
+              <span>Drag the bunny!</span>
+              <div class="arrow"></div>
+            </div>
+            <input
+              type="range"
+              id="ratingSlider"
+              min="1"
+              max="10"
+              value="5"
+              step="0.1"
+            />
+            <div class="slider-value">
+              <span id="ratingValue">5</span>
+            </div>
+          </div>
+        </div>
+        <div class="button-box">
+          <button type="submit">Send it!</button>
+        </div>
+        <footer>
+          <div class="barra">
+            <img
+              class="logomin"
+              src="img/opinator-logo.svg"
+              alt="opinator logo"
+            />
+          </div>
+        </footer>
+      </div>
+    </section>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
