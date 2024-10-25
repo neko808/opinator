@@ -11,7 +11,6 @@ function style() {
 
       // 2. pass that file through sass compiler
       .pipe(sass())
-      .pipe(gulp.dest("./build/css")) // Change destination to ./build/css
       //.on('error', sass.logError))
       // 3. where do I save the compíled css?
       .pipe(gulp.dest("./css"))
